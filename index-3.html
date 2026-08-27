@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Mudit Mehta | Cybersecurity Analyst | Cybercrime Investigation</title>
+<meta name="description" content="Professional portfolio of Mudit Mehta, a cybersecurity professional with experience in cybercrime investigation, vulnerability assessment, web application security testing, and security analysis.">
+<meta name="author" content="Mudit Mehta">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#06090C">
+
+<!-- REPLACE with your live domain once deployed -->
+<link rel="canonical" href="https://example.com/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Mudit Mehta | Cybersecurity Analyst | Cybercrime Investigation">
+<meta property="og:description" content="Cybersecurity professional with practical exposure to cybercrime investigation, vulnerability assessment and web application security testing. Based in Nagpur, India.">
+<meta property="og:locale" content="en_IN">
+<!-- REPLACE with your live domain once deployed -->
+<meta property="og:url" content="https://example.com/">
+<meta property="profile:first_name" content="Mudit">
+<meta property="profile:last_name" content="Mehta">
+
+<!-- Twitter / X card. No @handle is set because no verified account was provided. -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Mudit Mehta | Cybersecurity Analyst | Cybercrime Investigation">
+<meta name="twitter:description" content="Cybersecurity professional with practical exposure to cybercrime investigation, vulnerability assessment and web application security testing.">
+
+<!--
+  CONTENT SECURITY POLICY GUIDANCE
+  ---------------------------------
+  A CSP is best delivered as an HTTP response header from your host
+  (Netlify _headers, Vercel headers, Nginx add_header, Cloudflare rules).
+  A header cannot be spoofed by injected markup, so prefer it over a <meta> tag.
+
+  Recommended policy for this exact site:
+
+    Content-Security-Policy:
+      default-src 'self';
+      script-src 'self';
+      style-src 'self' https://fonts.googleapis.com;
+      font-src https://fonts.gstatic.com;
+      img-src 'self' data:;
+      connect-src 'self';
+      form-action 'self';
+      frame-ancestors 'none';
+      base-uri 'self';
+      object-src 'none';
+      upgrade-insecure-requests
+
+  Notes:
+   - No 'unsafe-inline' is needed for scripts: this page uses zero inline
+     event handlers and zero inline <script> logic. The only inline script
+     block is application/ld+json, which is data, not executable code.
+   - If you later configure CONTACT_FORM_ENDPOINT in script.js, add that
+     origin to connect-src.
+   - The only third-party origin used is Google Fonts (fonts.googleapis.com
+     for the stylesheet, fonts.gstatic.com for the font files). Self-host the
+     two font families if you want a zero-third-party site.
+-->
+
+<!-- Google Fonts. Reputable CDN, used only for typography.
+     IBM Plex Sans / Mono: an enterprise-technical family that suits security work.
+     Space Grotesk: engineered display face used sparingly for headings. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap">
+
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2306090C'/%3E%3Ctext x='16' y='21' font-family='monospace' font-size='13' font-weight='700' fill='%2300E39A' text-anchor='middle'%3EMM%3C/text%3E%3C/svg%3E">
+
+<script src="script.js" defer></script>
+</head>
+
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<!-- Ambient background: CSS only, no image assets -->
+<div class="bg-layer" aria-hidden="true">
+  <div class="bg-grid"></div>
+  <div class="bg-orb bg-orb--a"></div>
+  <div class="bg-orb bg-orb--b"></div>
+  <div class="bg-scan"></div>
+  <div class="bg-noise"></div>
+</div>
+
+<!-- Desktop-only pointer glow. Disabled on touch devices and reduced motion. -->
+<div class="cursor-glow" data-cursor aria-hidden="true"></div>
+
+<div class="scroll-progress" aria-hidden="true"><span data-progress></span></div>
+
+<header class="site-header" data-header>
+  <div class="wrap header-inner">
+    <a class="logo" href="#home">
+      <span class="logo-mark">MM</span>
+      <span class="logo-text">MUDIT<span class="logo-dot">.</span>MEHTA</span>
+    </a>
+
+    <nav class="nav" id="primary-nav" aria-label="Primary">
+      <ul class="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#articles">Articles</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch to light theme">
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.6M12 19.4V22M2 12h2.6M19.4 12H22M4.9 4.9l1.9 1.9M17.2 17.2l1.9 1.9M19.1 4.9l-1.9 1.9M6.8 17.2l-1.9 1.9"/></svg>
+      </button>
+
+      <button class="icon-btn nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============================ HERO ============================ -->
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+
+    <div class="hero-copy">
+      <p class="status-pill">
+        <span class="status-dot" aria-hidden="true"></span>
+        Available for cybersecurity opportunities
+      </p>
+
+      <h1 class="hero-name">Mudit Mehta</h1>
+
+      <p class="hero-role">
+        <span class="mono-caret" aria-hidden="true">&gt;</span>
+        <span data-typed data-typed-text="Cybersecurity Analyst | Cybercrime Investigation">Cybersecurity Analyst | Cybercrime Investigation</span><span class="caret" aria-hidden="true"></span>
+      </p>
+
+      <p class="hero-lede">
+        I work where security testing meets investigation — assessing web applications for
+        vulnerabilities, and supporting cybercrime cases from first report through evidence
+        handling. Practical cybersecurity experience with an investigative mindset.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projects">View my work</a>
+        <a class="btn btn-ghost" href="#contact">Contact me</a>
+      </div>
+
+      <div class="hero-links">
+        <a class="link-chip" href="https://www.linkedin.com/in/muditmehta1999" target="_blank" rel="noopener noreferrer">
+          LinkedIn <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="link-chip" href="https://medium.com/@muditmehta99999" target="_blank" rel="noopener noreferrer">
+          Medium <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+        <!--
+          OPTIONAL RESUME DOWNLOAD
+          Drop your PDF next to index.html (e.g. Mudit-Mehta-Resume.pdf),
+          then remove the hidden attribute from the link below.
+        -->
+        <a class="link-chip" href="Mudit-Mehta-Resume.pdf" download hidden>
+          Resume <span class="arrow" aria-hidden="true">↓</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Signature element: the status terminal -->
+    <div class="hero-panel">
+      <div class="terminal" data-terminal>
+        <div class="terminal-bar">
+          <span class="tdot"></span><span class="tdot"></span><span class="tdot"></span>
+          <span class="terminal-title">analyst@nagpur — ~/profile</span>
+        </div>
+
+        <div class="terminal-body">
+          <p class="tline"><span class="prompt">$</span> status --system</p>
+          <p class="tline tline--ok"><span class="ok-badge">SYSTEM STATUS</span> SECURE</p>
+
+          <p class="tline"><span class="prompt">$</span> list --focus-areas</p>
+          <ul class="focus-list">
+            <li><span class="idx">01</span> Threat analysis</li>
+            <li><span class="idx">02</span> Vulnerability assessment</li>
+            <li><span class="idx">03</span> Digital investigation</li>
+            <li><span class="idx">04</span> Web application security</li>
+          </ul>
+
+          <p class="tline"><span class="prompt">$</span> whoami</p>
+          <p class="tline tline--muted">cybersecurity analyst · nagpur, india<span class="caret caret--term" aria-hidden="true"></span></p>
+        </div>
+
+        <div class="terminal-scan" aria-hidden="true"></div>
+      </div>
+
+      <div class="float-card float-card--a" aria-hidden="true">
+        <span class="fc-label">RECON</span>
+        <span class="fc-value">Nmap</span>
+      </div>
+      <div class="float-card float-card--b" aria-hidden="true">
+        <span class="fc-label">CASEWORK</span>
+        <span class="fc-value">Cyber fraud</span>
+      </div>
+    </div>
+  </div>
+
+  <a class="scroll-cue" href="#about" aria-label="Scroll to About">
+    <span class="scroll-cue-line" aria-hidden="true"></span>
+    <span class="scroll-cue-text">Scroll</span>
+  </a>
+</section>
+
+<!-- ============================ ABOUT ============================ -->
+<section class="section" id="about">
+  <div class="wrap">
+    <header class="section-head reveal">
+      <p class="eyebrow"><span class="eyebrow-id">01</span> Profile</p>
+      <h2 class="section-title">About me</h2>
+    </header>
+
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>
+          I'm an entry-level cybersecurity professional based in Nagpur, India, with internship
+          experience across three sides of the field: cybercrime investigation, web application
+          penetration testing, and vulnerability assessment.
+        </p>
+        <p>
+          At the <strong>Cyber Cell Police Station</strong> I assisted on live cyber fraud, online
+          scam and social media abuse cases — supporting FIR documentation, digital evidence
+          collection and case records, and helping victims through the reporting process. That work
+          taught me to read suspicious digital activity carefully and to treat evidence as something
+          that has to hold up later.
+        </p>
+        <p>
+          At <strong>Phoenix Cyber Secure</strong> I tested web applications, learned bug hunting
+          fundamentals and identified straightforward security issues. Earlier, at
+          <strong>Crypto Forensic Technology</strong>, I built the groundwork: ethical hacking
+          fundamentals, reconnaissance, scanning and enumeration, including basic network scanning
+          with Nmap.
+        </p>
+        <p>
+          What I bring is the combination — testing skills paired with an investigator's habit of
+          asking where something came from and where it leads.
+        </p>
+      </div>
+
+      <aside class="profile-card reveal" aria-label="Security profile summary">
+        <p class="pc-head"><span class="status-dot" aria-hidden="true"></span> Security profile</p>
+        <dl class="pc-list">
+          <div class="pc-row"><dt>Focus</dt><dd>Cybersecurity</dd></div>
+          <div class="pc-row"><dt>Specialization</dt><dd>VAPT / Web security</dd></div>
+          <div class="pc-row"><dt>Investigation</dt><dd>Cybercrime</dd></div>
+          <div class="pc-row"><dt>Mindset</dt><dd>Analytical</dd></div>
+          <div class="pc-row"><dt>Location</dt><dd>Nagpur, India</dd></div>
+        </dl>
+      </aside>
+    </div>
+
+    <ul class="stats reveal">
+      <li class="stat">
+        <span class="stat-num">03</span>
+        <span class="stat-label">Professional / internship experiences</span>
+      </li>
+      <li class="stat">
+        <span class="stat-num">2024–2026</span>
+        <span class="stat-label">Cybercrime investigation</span>
+      </li>
+      <li class="stat">
+        <span class="stat-num">2023</span>
+        <span class="stat-label">Web application security internship</span>
+      </li>
+      <li class="stat">
+        <span class="stat-num">2020–2021</span>
+        <span class="stat-label">Cybersecurity / CFT internship</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================ SKILLS ============================ -->
+<section class="section" id="skills">
+  <div class="wrap">
+    <header class="section-head reveal">
+      <p class="eyebrow"><span class="eyebrow-id">02</span> Capability</p>
+      <h2 class="section-title">Skills</h2>
+      <p class="section-lede">Grouped by how the work actually splits: securing applications, investigating incidents, and mapping what's exposed.</p>
+    </header>
+
+    <div class="skill-groups">
+
+      <article class="skill-group reveal">
+        <h3 class="sg-title">Cybersecurity</h3>
+        <ul class="skill-list">
+          <li class="skill">
+            <span class="skill-name">Vulnerability assessment</span>
+            <span class="skill-level">Practical exposure</span>
+          </li>
+          <li class="skill">
+            <span class="skill-name">Penetration testing</span>
+            <span class="skill-level">Practical exposure</span>
+          </li>
+          <li class="skill">
+            <span class="skill-name">Web application security</span>
+            <span class="skill-level">Practical exposure</span>
+          </li>
+          <li class="skill">
+            <span class="skill-name">Bug hunting</span>
+            <span class="skill-level">Learning environments</span>
+          </li>
+        </ul>
+      </article>
+
+      <article class="skill-group reveal">
+        <h3 class="sg-title">Investigation</h3>
+        <ul class="skill-list">
+          <li class="skill">
+            <span class="skill-name">Cybercrime investigation</span>
+            <span class="skill-level">Hands-on experience</span>
+          </li>
+          <li class="skill">
+            <span class="skill-name">Digital evidence collection</span>
+            <span class="skill-level">Hands-on experience</span>
+          </li>
+          <li class="skill">
+            <span class="skill-name">Cyber fraud investigation</span>
+            <span class="skill-level">Hands-on experience</span>
+          </li>
+          <li class="skill">
+            <span class="skill-name">Online scam investigation</span>
+            <span class="skill-level">Hands-on experience</span>
+          </li>
+          <li class="skill">
+            <span class="skill-name">Suspicious activity analysis</span>
+            <span class="skill-level">Hands-on experience</span>
+          </li>
+        </ul>
+      </article>
+
+      <article class="skill-group reveal">
+        <h3 class="sg-title">Recon / Network</h3>
+        <ul class="skill-list">
+          <li class="skill">
+            <span class="skill-name">Reconnaissance</span>
+            <span class="skill-level">Training / practical exposure</span>
+          </li>
+          <li class="skill">
+            <span class="skill-name">Scanning</span>
+            <span class="skill-level">Training / practical exposure</span>
+          </li>
+          <li class="skill">
+            <span class="skill-name">Enumeration</span>
+            <span class="skill-level">Training / practical exposure</span>
+          </li>
+          <li class="skill">
+            <span class="skill-name">Nmap</span>
+            <span class="skill-level">Basic network scanning</span>
+          </li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================ EXPERIENCE ============================ -->
+<section class="section" id="experience">
+  <div class="wrap">
+    <header class="section-head reveal">
+      <p class="eyebrow"><span class="eyebrow-id">03</span> Record</p>
+      <h2 class="section-title">Experience</h2>
+      <p class="section-lede">Most recent first. Expand any entry for the full scope of work.</p>
+    </header>
+
+    <ol class="timeline">
+
+      <li class="tl-item reveal">
+        <span class="tl-node" aria-hidden="true"></span>
+        <article class="tl-card">
+          <p class="tl-dates">08/2024 – 03/2026 · Nagpur, India</p>
+          <h3 class="tl-role">Cybercrime Investigation</h3>
+          <p class="tl-company">Cyber Cell Police Station</p>
+          <p class="tl-focus"><span class="tag">Focus</span> Cyber fraud, online scams and digital evidence</p>
+
+          <button class="tl-toggle" type="button" data-accordion aria-expanded="false" aria-controls="exp-1">
+            <span class="tl-toggle-label">Responsibilities</span>
+            <span class="chev" aria-hidden="true"></span>
+          </button>
+          <div class="tl-panel" id="exp-1" hidden>
+            <ul class="bullets">
+              <li>Assisted in the investigation of cyber fraud, online scam and social media abuse cases</li>
+              <li>Supported FIR documentation</li>
+              <li>Supported digital evidence collection</li>
+              <li>Assisted with case record management</li>
+              <li>Helped victims report and resolve cybercrime incidents</li>
+              <li>Assisted in analyzing suspicious digital activities</li>
+              <li>Assisted in identifying potential cyber threats</li>
+            </ul>
+          </div>
+        </article>
+      </li>
+
+      <li class="tl-item reveal">
+        <span class="tl-node" aria-hidden="true"></span>
+        <article class="tl-card">
+          <p class="tl-dates">07/2023 – 12/2023 · Nagpur, India</p>
+          <h3 class="tl-role">Web Application Pentester Intern</h3>
+          <p class="tl-company">Phoenix Cyber Secure</p>
+          <p class="tl-focus"><span class="tag">Focus</span> Web application security testing</p>
+
+          <button class="tl-toggle" type="button" data-accordion aria-expanded="false" aria-controls="exp-2">
+            <span class="tl-toggle-label">Responsibilities</span>
+            <span class="chev" aria-hidden="true"></span>
+          </button>
+          <div class="tl-panel" id="exp-2" hidden>
+            <ul class="bullets">
+              <li>Built a basic understanding of bug hunting concepts</li>
+              <li>Performed basic testing on web applications</li>
+              <li>Identified simple security issues and errors</li>
+              <li>Developed an understanding of basic website structure and functionality</li>
+              <li>Practiced bug hunting in learning environments</li>
+            </ul>
+          </div>
+        </article>
+      </li>
+
+      <li class="tl-item reveal">
+        <span class="tl-node" aria-hidden="true"></span>
+        <article class="tl-card">
+          <p class="tl-dates">12/2020 – 03/2021 · Nagpur, India</p>
+          <h3 class="tl-role">CFT Intern</h3>
+          <p class="tl-company">Crypto Forensic Technology</p>
+          <p class="tl-focus"><span class="tag">Focus</span> Ethical hacking fundamentals</p>
+
+          <button class="tl-toggle" type="button" data-accordion aria-expanded="false" aria-controls="exp-3">
+            <span class="tl-toggle-label">Responsibilities</span>
+            <span class="chev" aria-hidden="true"></span>
+          </button>
+          <div class="tl-panel" id="exp-3" hidden>
+            <ul class="bullets">
+              <li>Learned ethical hacking fundamentals</li>
+              <li>Practiced reconnaissance</li>
+              <li>Practiced scanning</li>
+              <li>Practiced enumeration</li>
+              <li>Performed basic network scanning using Nmap</li>
+            </ul>
+          </div>
+        </article>
+      </li>
+
+    </ol>
+  </div>
+</section>
+
+<!-- ============================ PROJECTS ============================ -->
+<section class="section" id="projects">
+  <div class="wrap">
+    <header class="section-head reveal">
+      <p class="eyebrow"><span class="eyebrow-id">04</span> Build</p>
+      <h2 class="section-title">Projects</h2>
+      <p class="section-lede">Full-stack academic projects — the development side of understanding how web applications break.</p>
+    </header>
+
+    <div class="project-grid">
+
+      <article class="project-card reveal">
+        <span class="pc-index" aria-hidden="true">01</span>
+        <h3 class="pc-title">Branded Sunglasses Website</h3>
+        <p class="pc-desc">An e-commerce style web application built as part of my MCM coursework, covering product listings, dynamic pages and database-backed content.</p>
+        <ul class="stack">
+          <li>HTML</li><li>PHP</li><li>JavaScript</li><li>MySQL</li>
+        </ul>
+        <button class="btn btn-small" type="button"
+          data-project
+          data-title="Branded Sunglasses Website"
+          data-index="01"
+          data-stack="HTML · PHP · JavaScript · MySQL"
+          data-role="Developer — designed and built the front end and the PHP/MySQL back end."
+          data-overview="A branded sunglasses e-commerce style website built during my MCM programme. The project covers product presentation, dynamic page rendering with PHP and a MySQL database for storing product and order data."
+          data-availability="Project details available on request.">
+          View details
+        </button>
+      </article>
+
+      <article class="project-card reveal">
+        <span class="pc-index" aria-hidden="true">02</span>
+        <h3 class="pc-title">Branded Watches Website</h3>
+        <p class="pc-desc">A database-driven storefront built during my BCCA programme, with catalogue pages, form handling and server-side logic.</p>
+        <ul class="stack">
+          <li>HTML</li><li>PHP</li><li>JavaScript</li><li>MySQL</li>
+        </ul>
+        <button class="btn btn-small" type="button"
+          data-project
+          data-title="Branded Watches Website"
+          data-index="02"
+          data-stack="HTML · PHP · JavaScript · MySQL"
+          data-role="Developer — built the interface, form handling and PHP/MySQL back end."
+          data-overview="A branded watches website built during my BCCA programme. The project covers catalogue browsing, server-side form handling with PHP and persistent storage in MySQL."
+          data-availability="Project details available on request.">
+          View details
+        </button>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CERTIFICATIONS ============================ -->
+<section class="section" id="certifications">
+  <div class="wrap">
+    <header class="section-head reveal">
+      <p class="eyebrow"><span class="eyebrow-id">05</span> Credentials</p>
+      <h2 class="section-title">Certifications</h2>
+    </header>
+
+    <div class="cert-wall">
+
+      <article class="cert reveal">
+        <div class="cert-seal" aria-hidden="true"><span>01</span></div>
+        <h3 class="cert-title">Cyber Security Associate Certification Programme</h3>
+        <p class="cert-issuer">Skill India (NSDC)</p>
+        <p class="cert-date">January 2026</p>
+      </article>
+
+      <article class="cert reveal">
+        <div class="cert-seal" aria-hidden="true"><span>02</span></div>
+        <h3 class="cert-title">ISO/IEC 27001:2022 Information Security Associate™</h3>
+        <p class="cert-issuer">SkillFront</p>
+        <p class="cert-date">January 2026</p>
+        <p class="cert-note">Focus: Information Security Management System (ISMS) fundamentals</p>
+      </article>
+
+      <article class="cert reveal">
+        <div class="cert-seal" aria-hidden="true"><span>03</span></div>
+        <h3 class="cert-title">CTF Training</h3>
+        <p class="cert-issuer">Crypto Forensic Technology</p>
+        <p class="cert-date">2020</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================ ACHIEVEMENTS ============================ -->
+<section class="section" id="achievements">
+  <div class="wrap">
+    <header class="section-head reveal">
+      <p class="eyebrow"><span class="eyebrow-id">06</span> Recognition</p>
+      <h2 class="section-title">Achievements</h2>
+    </header>
+
+    <ol class="ach-list">
+      <li class="ach reveal">
+        <span class="ach-year">2023</span>
+        <div class="ach-body">
+          <h3 class="ach-title">College Appreciation Certificate</h3>
+          <p class="ach-desc">Awarded for securing the college website.</p>
+        </div>
+      </li>
+      <li class="ach reveal">
+        <span class="ach-year">2017</span>
+        <div class="ach-body">
+          <h3 class="ach-title">Performance Award — Class 12</h3>
+          <p class="ach-desc">Recognised for academic performance.</p>
+        </div>
+      </li>
+      <li class="ach reveal">
+        <span class="ach-year">2015</span>
+        <div class="ach-body">
+          <h3 class="ach-title">Performance Award — Class 10</h3>
+          <p class="ach-desc">Recognised for academic performance.</p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============================ EDUCATION + LANGUAGES ============================ -->
+<section class="section" id="education">
+  <div class="wrap">
+    <header class="section-head reveal">
+      <p class="eyebrow"><span class="eyebrow-id">07</span> Foundation</p>
+      <h2 class="section-title">Education</h2>
+    </header>
+
+    <ol class="edu-list">
+      <li class="edu reveal">
+        <div class="edu-main">
+          <h3 class="edu-degree">MCM</h3>
+          <p class="edu-school">City Premier College · CPC College, Nagpur</p>
+        </div>
+        <p class="edu-meta"><span class="edu-score">87.50%</span><span class="edu-year">May 2022</span></p>
+      </li>
+      <li class="edu reveal">
+        <div class="edu-main">
+          <h3 class="edu-degree">BCCA</h3>
+          <p class="edu-school">City Premier College · CPC College, Nagpur</p>
+        </div>
+        <p class="edu-meta"><span class="edu-score">66.5%</span><span class="edu-year">2017 – 2020</span></p>
+      </li>
+      <li class="edu reveal">
+        <div class="edu-main">
+          <h3 class="edu-degree">Class 12</h3>
+          <p class="edu-school">MKH Sancheti Public School · Nagpur, India</p>
+        </div>
+        <p class="edu-meta"><span class="edu-score">70%</span><span class="edu-year">2015 – 2017</span></p>
+      </li>
+      <li class="edu reveal">
+        <div class="edu-main">
+          <h3 class="edu-degree">Class 10</h3>
+          <p class="edu-school">Bharti Krishna Vidya Vihar · Nagpur</p>
+        </div>
+        <p class="edu-meta"><span class="edu-score">80%</span><span class="edu-year">2014 – 2015</span></p>
+      </li>
+    </ol>
+
+    <div class="lang-block reveal">
+      <h3 class="sub-title">Languages</h3>
+      <ul class="lang-grid">
+        <li class="lang"><span class="lang-name">Hindi</span><span class="lang-note">Available for professional communication</span></li>
+        <li class="lang"><span class="lang-name">Gujarati</span><span class="lang-note">Available for professional communication</span></li>
+        <li class="lang"><span class="lang-name">Marathi</span><span class="lang-note">Available for professional communication</span></li>
+        <li class="lang"><span class="lang-name">English</span><span class="lang-note">Available for professional communication</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ ARTICLES ============================ -->
+<section class="section" id="articles">
+  <div class="wrap">
+    <header class="section-head reveal">
+      <p class="eyebrow"><span class="eyebrow-id">08</span> Writing</p>
+      <h2 class="section-title">Articles &amp; security research</h2>
+    </header>
+
+    <a class="article-card reveal" href="https://medium.com/@muditmehta99999" target="_blank" rel="noopener noreferrer">
+      <div class="art-left">
+        <p class="art-source">Medium</p>
+        <h3 class="art-title">Read my cybersecurity articles</h3>
+        <p class="art-desc">Security learning, technical exploration, cybersecurity topics and professional development.</p>
+      </div>
+      <span class="art-arrow" aria-hidden="true">↗</span>
+    </a>
+  </div>
+</section>
+
+<!-- ============================ RECRUITER CTA ============================ -->
+<section class="cta-band">
+  <div class="wrap cta-inner reveal">
+    <h2 class="cta-title">Looking for a cybersecurity professional with practical investigation and security-testing exposure?</h2>
+    <p class="cta-sub">I'm open to analyst, VAPT and investigation roles, and happy to talk through what I've worked on.</p>
+    <div class="cta-actions">
+      <a class="btn btn-primary" href="#contact">Contact me</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/muditmehta1999" target="_blank" rel="noopener noreferrer">View LinkedIn</a>
+      <a class="btn btn-ghost" href="https://medium.com/@muditmehta99999" target="_blank" rel="noopener noreferrer">Read my articles</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CONTACT ============================ -->
+<section class="section" id="contact">
+  <div class="wrap">
+    <header class="section-head reveal">
+      <p class="eyebrow"><span class="eyebrow-id">09</span> Contact</p>
+      <h2 class="section-title">Let's talk security</h2>
+      <p class="section-lede">Open to cybersecurity opportunities, security discussions, and professional collaboration.</p>
+    </header>
+
+    <div class="contact-grid">
+
+      <div class="contact-cards reveal">
+        <div class="c-card">
+          <p class="c-label">Email</p>
+          <a class="c-value" href="mailto:muditmehta99999@gmail.com">muditmehta99999@gmail.com</a>
+          <button class="copy-btn" type="button" data-copy="muditmehta99999@gmail.com" aria-label="Copy email address">Copy</button>
+        </div>
+
+        <div class="c-card">
+          <p class="c-label">Phone</p>
+          <a class="c-value" href="tel:+919309158329">9309158329</a>
+          <button class="copy-btn" type="button" data-copy="9309158329" aria-label="Copy phone number">Copy</button>
+        </div>
+
+        <div class="c-card">
+          <p class="c-label">Location</p>
+          <p class="c-value">Nagpur, India</p>
+        </div>
+
+        <div class="c-card">
+          <p class="c-label">LinkedIn</p>
+          <a class="c-value" href="https://www.linkedin.com/in/muditmehta1999" target="_blank" rel="noopener noreferrer">linkedin.com/in/muditmehta1999</a>
+        </div>
+
+        <div class="c-card">
+          <p class="c-label">Medium</p>
+          <a class="c-value" href="https://medium.com/@muditmehta99999" target="_blank" rel="noopener noreferrer">medium.com/@muditmehta99999</a>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" data-form novalidate>
+        <div class="field">
+          <label for="cf-name">Name</label>
+          <input id="cf-name" name="name" type="text" autocomplete="name" required maxlength="80" placeholder="Your name">
+          <p class="field-error" data-error-for="cf-name" role="alert" hidden></p>
+        </div>
+
+        <div class="field">
+          <label for="cf-email">Email</label>
+          <input id="cf-email" name="email" type="email" autocomplete="email" required maxlength="120" placeholder="you@company.com">
+          <p class="field-error" data-error-for="cf-email" role="alert" hidden></p>
+        </div>
+
+        <div class="field">
+          <label for="cf-subject">Subject</label>
+          <input id="cf-subject" name="subject" type="text" required maxlength="120" placeholder="Role, project or question">
+          <p class="field-error" data-error-for="cf-subject" role="alert" hidden></p>
+        </div>
+
+        <div class="field">
+          <label for="cf-message">Message</label>
+          <textarea id="cf-message" name="message" rows="5" required maxlength="2000" placeholder="A few lines about what you're looking for"></textarea>
+          <p class="field-error" data-error-for="cf-message" role="alert" hidden></p>
+        </div>
+
+        <!-- Honeypot: hidden from people, tempting to bots. Not a substitute for server-side checks. -->
+        <div class="hp" aria-hidden="true">
+          <label for="cf-company">Company</label>
+          <input id="cf-company" name="company" type="text" tabindex="-1" autocomplete="off">
+        </div>
+
+        <button class="btn btn-primary btn-block" type="submit">Send message</button>
+        <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+        <p class="form-note" data-form-note>No endpoint is configured, so this opens your email app with the message ready to send.</p>
+      </form>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-id">
+      <p class="footer-name">Mudit Mehta</p>
+      <p class="footer-role">Cybersecurity Analyst | Cybercrime Investigation</p>
+      <p class="footer-loc">Nagpur, India</p>
+    </div>
+
+    <nav class="footer-links" aria-label="Footer">
+      <a href="https://www.linkedin.com/in/muditmehta1999" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://medium.com/@muditmehta99999" target="_blank" rel="noopener noreferrer">Medium</a>
+      <a href="mailto:muditmehta99999@gmail.com">Email</a>
+      <a href="tel:+919309158329">Phone</a>
+    </nav>
+  </div>
+
+  <div class="wrap footer-bottom">
+    <p>&copy; <span data-year>2026</span> Mudit Mehta. All rights reserved.</p>
+    <p class="footer-built">Built with HTML, CSS and vanilla JavaScript.</p>
+  </div>
+</footer>
+
+<button class="to-top" type="button" data-to-top aria-label="Back to top" hidden>
+  <span aria-hidden="true">↑</span>
+</button>
+
+<!-- Project modal -->
+<div class="modal" data-modal hidden>
+  <div class="modal-backdrop" data-modal-close></div>
+  <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <button class="modal-close" type="button" data-modal-close aria-label="Close dialog">&times;</button>
+    <p class="modal-eyebrow"><span data-modal-index>01</span> · Project</p>
+    <h2 class="modal-title" id="modal-title" data-modal-title>Project</h2>
+
+    <div class="modal-section">
+      <h3>Overview</h3>
+      <p data-modal-overview></p>
+    </div>
+    <div class="modal-section">
+      <h3>Technology</h3>
+      <p data-modal-stack></p>
+    </div>
+    <div class="modal-section">
+      <h3>Role</h3>
+      <p data-modal-role></p>
+    </div>
+    <div class="modal-section">
+      <h3>Availability</h3>
+      <p data-modal-availability></p>
+    </div>
+  </div>
+</div>
+
+<div class="toast" data-toast role="status" aria-live="polite" hidden></div>
+
+<!-- Structured data. Only information verified in the source resume is included. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Mudit Mehta",
+  "jobTitle": "Cybersecurity Analyst",
+  "description": "Entry-level cybersecurity professional with internship experience in cybercrime investigation, web application penetration testing and vulnerability assessment.",
+  "email": "mailto:muditmehta99999@gmail.com",
+  "telephone": "+91-9309158329",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Nagpur",
+    "addressCountry": "IN"
+  },
+  "knowsLanguage": ["Hindi", "Gujarati", "Marathi", "English"],
+  "knowsAbout": [
+    "Vulnerability Assessment",
+    "Penetration Testing",
+    "Web Application Security",
+    "Cybercrime Investigation",
+    "Digital Evidence Collection",
+    "Reconnaissance",
+    "Network Scanning"
+  ],
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "City Premier College, Nagpur" },
+    { "@type": "EducationalOrganization", "name": "MKH Sancheti Public School" },
+    { "@type": "EducationalOrganization", "name": "Bharti Krishna Vidya Vihar" }
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/in/muditmehta1999",
+    "https://medium.com/@muditmehta99999"
+  ]
+}
+</script>
+
+</body>
+</html>
